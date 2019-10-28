@@ -1,0 +1,22 @@
+The task is to implement a simple, console-based calculator. 
+-The user is to be asked for the operation
+    -Number-coded operations: +,-,*,/,%,end
+    -the user enters a number from 1 to 6 to decide what to do.
+	-if they entered the number 6, the program ends.
+	-if they entered a number between 1 and 5, the program will ask the user for the operands
+	-check for 'divide by 0' or 'modulo 0'
+
+the following Strings should be used:
+operand 1: "Ersten Operand eingeben:"
+operand 2: "Zweiten Operand eingeben:"
+divide by zero / mod 0: "Fehler: Division durch 0!"
+
+the operation console should look like this:
+
+Wählen Sie eine Operation:
+1) +
+2) -
+3) *
+4) /
+5) %
+6) Programm beenden
