@@ -13,7 +13,7 @@ divide by zero / mod 0: "Fehler: Division durch 0!"
 
 the operation console should look like this:
 
-Wählen Sie eine Operation:
+WÃ¤hlen Sie eine Operation:
 1) +
 2) -
 3) *
