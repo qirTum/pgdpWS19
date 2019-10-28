@@ -3,4 +3,4 @@
 
 2. Create another class 'PracticalCourse.java' in the same directory as 'HelloWorld.java'. Copy the source code from the latter and adjust the class name so that it matches the class name of the new file.
 
-3. Now print the String "PGdP ist ‰uﬂerst exzellent!" in the console instead of "Hallo Welt!"
+3. Now print the String "PGdP ist √§u√üerst exzellent!" in the console instead of "Hallo Welt!"

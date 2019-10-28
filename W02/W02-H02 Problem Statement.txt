@@ -4,9 +4,9 @@ A program is to be written which determines the largest two numbers entered from
     -Otherwise, ask user for a number exactly k times and then return the largest two numbers.
 	-formatting as below:
 Erster: 
-<größter Wert>
+<grÃ¶ÃŸter Wert>
 Zweiter: 
-<zweitgrößter Wert>
+<zweitgrÃ¶ÃŸter Wert>
 
 These strings should be used:
 Ask user for k: "Bitte Anzahl eingeben:"
