@@ -1,6 +1,0 @@
-1. Print the String "Hallo Welt!" into the console
-	-you can use the function write(). The string to be printed should be in the parentheses
-
-2. Create another class 'PracticalCourse.java' in the same directory as 'HelloWorld.java'. Copy the source code from the latter and adjust the class name so that it matches the class name of the new file.
-
-3. Now print the String "PGdP ist ‰uﬂerst exzellent!" in the console instead of "Hallo Welt!"

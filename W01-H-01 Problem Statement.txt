@@ -1,5 +1,0 @@
-1. Print Pinguin:
-Use the given java-file to print the String "Pinguine sind die Besten!" into the console.
-
-2. Down with the ice bears:
-Additionally, print the String "Nieder mit den Eisbären!" into a second line.
