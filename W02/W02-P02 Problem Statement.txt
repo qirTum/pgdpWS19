@@ -1,0 +1,8 @@
+The goal of this exercise is to write a program to dissect prime factors of a number.
+    -The user is to be asked for a number > 2, if the number is <= 2, an error is to be thrown.
+    -Approach: divide the number with all numbers > 2 in sequence.
+
+Strings to use:
+    -enter number: "Bitte Zahl eingeben:"
+    -Error: "Fehler: n>1 erwartet!"
+    
