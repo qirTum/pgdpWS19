@@ -1,0 +1,8 @@
+A program is to be written to return the sum of numbers the user enters.
+    -the cancel condition is 0
+
+Strings to be used:
+    -Enter number: "Bitte Zahl eingeben:"
+    -Result: "Summe:"
+    
+Hints: Use the method 'readInt()' of MiniJava to read the user inputs.
