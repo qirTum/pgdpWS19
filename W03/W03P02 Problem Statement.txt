@@ -1,0 +1,18 @@
+It is possible to use multiple number formats in java, such as:
+  -binary -> begin with a 0b or 0B
+  -octal -> always have a 0 in the first digit
+  -decimal -> without leading 0
+  -hexadecimal -> begin with a 0x or 0X
+  
+We want to create a regular expression to define the syntax of binary numbers
+  -Alternative: |
+  -Iteration: * (can include 0 times)
+  -Concatenation: <writing things in order>
+  -Option: ?
+  
+The rules for binary numbers:
+  -They begin with a 0, followed by either a capital or lowercase b
+  -a random amount (at least 1) of binary numbers follow
+  -it is allowed to add underscores (_) to group the numbers
+    -as example: 0_b0110 0b_0110 and 0b0110_ are not valid, but 0b0000_0111_0110_1111 is
+    

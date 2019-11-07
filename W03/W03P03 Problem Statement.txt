@@ -1,0 +1,13 @@
+This exercise is about showing whether a number is a palindrome or not
+  -A number is a palindrome if the value of the number is the same when read backwards and forwards
+
+The user is to be asked for a positive number until he enters one.
+The entered number is to be converted into an array of digits and checked for the properties of a palindrome
+The number is not allowed to be changed into a String at any time
+You are not to use external methods except for MiniJava
+To pass the tests, the formatting of the strings need to be exact.
+
+Use the following Strings:
+  -Enter number: "Geben Sie eine Zahl n >= 0 ein."
+  -Palindrome: "Palindrom"
+  -Not a palindrome: "Kein Palindrom"

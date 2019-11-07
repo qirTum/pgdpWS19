@@ -1,0 +1,18 @@
+Your task is to create a syntax tree from the following java source-code:
+  The miniJava grammar from the lecture is to be used and can be found on Moodle
+
+int x,r;
+int n;
+r = 1;
+n = 1;
+x = readInt();
+while (n < x) {
+    if (r % 1 == 0)
+        r = r * n;
+    else {
+        r = r * (-n);
+    }
+    n = n + 1;
+    write (r);
+}
+
