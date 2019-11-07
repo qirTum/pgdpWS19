@@ -1,0 +1,9 @@
+The exercise is to implement a pascal triange.
+
+Rules:
+  -the amount of elements in line n is n + 1
+  -the first and last numbers are 1
+  -the i-th element in the line n is the sum of the i-th and (i-1)-th element in the line n-1
+
+ ToDo: Write a method with the signature int[][] pascalTriangle(int n) which calculates the triangle for n lines.
+       Also implement the main method that prints the pascal triangle of size n. Assume that n > 0
