@@ -1,0 +1,32 @@
+Translate this code (below) into assembler instructions for the MiniJava VM.
+Use the approach shown in the lecture.
+
+int n;
+int x, t;
+n = readInt();
+t = n / 2 + 1;
+x = t + 2;
+while (1 < x - t) {
+    x = t;
+    t = ((n / x) + x) / 2;
+}
+if (t * t <= n)
+    x = t;
+else
+    x = x - 2;
+write(x);
+
+You have the following instructions (copied off artemis)
+
+Typ				Befehl
+int-Operatoren:			NEG, ADD, SUB, MUL, DIV, MOD
+boolean-Operatoren:		NOT, AND, OR
+Vergleichs-Operatoren:		LESS, LEQ, EQ, NEQ
+Laden von Konstanten:		CONST i, TRUE, FALSE
+Speicher-Operationen:		LOAD i, STORE i
+Sprung-Befehle:			JUMP i, FJUMP i
+IO-Befehle:			READ, WRITE
+Reservierung von Speicher:	ALLOC i
+Beendung des Programms:    	HALT
+
+To visualize the program, save it as .txt file, execute the .jar file that can be downloaded on Artemis and proceed as shown in the tutor exercise.

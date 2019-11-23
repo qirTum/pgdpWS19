@@ -1,0 +1,35 @@
+You are to help Pingu gather fish.
+- Pingu lives in a rectangular world which is divided into squares. 
+- Said squares can have different terrain.
+- The terrain of the square on which pengu is at the start of the turn influences how Pingu can move.
+
+Approach:
+- The world is displayed in a two-dimensional array of type int.
+- The different terrains of the squares are the different values in the different elements inside the terrain
+
+The following terrains are to be implemented:
+- 0: land - Pingu can move in one direction by one square (up down left right)
+- 1: ice - Pingu can move in one of the diagonal directions by one square
+- 2: water - Pingu can move exactly three squares in one of the diagonal directions, skipping the squares in between
+- 3: Shark - Pingu cannot end a move on such a field.
+- 4: Fish - there's a fish here.
+
+Movements that would go outside the map are not allowed.
+
+- You are to program a method called 'public static void printWorld(int[][] world, int pinguRow, int pinguColumn)', which prints the world on the console.
+-> the first dimension are the lines whilst the second dimension are the columns
+-> the terrains are to be done as such: land: L | ice: E | water: W | shark: H | fish: F |
+-> the penguin is in the row pinguRow and in the column pinguColumn, with indexing starting at 0, pingu should be shown as (P)
+-> the singular columns are to be spaced with a tabulator (\t), with no tabulator being before the first nor after the last column.
+
+- Is a fish reachable:
+
+-implement the method 'public static boolean isFishReachable(int[][] world, int pinguRow, int pinguColumn)', which is to check if pingu can find a fish when pingu starts in pinguRow and pinguColumn after a indefinite amount of turns.
+-> if pingu starts on a shark, the return is false.
+-> you are to solve this problem recursively, do pay attention to not run in (infinite) circles.
+
+Hints:
+- auxillary methods are allowed
+- no external packages except for java.lang.* are allowed.
+- the value range of the array is [0 - 4]
+- your implementation is being tested with maps with 3000 squares and should be able to handle as much.

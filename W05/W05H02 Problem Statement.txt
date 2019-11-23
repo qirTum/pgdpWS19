@@ -1,0 +1,8 @@
+You are to program an algorithm for the probatilistic search.
+- You are given a sorted array, the length of the array and the minimal / maximal value of the array.
+- The step width is calculated with the help of aforementioned values.
+- The start value is calculated with the step width and the difference between the value searched for and the starting value. The formula is on artemis.
+- Now the position is checked and we move in the required direction exponentially, with the first step being 1 value, the second being 2, the third 4, and so on.
+- Should the program suddenly have to go into the other direction, you have found an interval in which the number you search for is contained. at that point, you are to use the binary search as auxillary function.
+- The probabilistic search already has a step in the first try, and for every subsequent try, the step count is incremented. if the first guess misses by one, the step count 2 is returned. 
+- The binary search is called with min and max to search the area that has not yet been covered by the probabilistic search. As parameter for the amount of steps in the binary search, the current step count (or step count + 1 depending on implementation) is to be expected
